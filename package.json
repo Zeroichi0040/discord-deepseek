@@ -1,0 +1,16 @@
+{
+  "name": "deepseek-discord-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Discord bot that relays messages to the free chat.deepseek.com web UI via Playwright",
+  "engines": { "node": ">=20.6" },
+  "scripts": {
+    "login": "node --env-file=.env login.mjs",
+    "start": "node --env-file=.env bot.mjs"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.0",
+    "playwright": "^1.48.0"
+  }
+}
