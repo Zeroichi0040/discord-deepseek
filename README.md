@@ -41,6 +41,3 @@ Discord app → Discord bot (bot.mjs) → Playwright → chat.deepseek.com → r
 - Automating the web UI is a gray area under most sites' terms of use, and the free tier has its own rate limits. Use it for personal use, not as a public service.
 - Headless mode (`HEADLESS=true`) is more likely to trigger bot checks. Start with the visible window.
 
-
-bot url: bot1567900155334762536
-zeroichi. user id: 1020964568857583618
